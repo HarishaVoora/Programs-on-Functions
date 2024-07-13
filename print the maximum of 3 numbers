@@ -1,0 +1,4 @@
+def maximum(a,b,c):
+    list=(a,b,c)
+    return max(list)
+print(maximum(a=22,b=30,c=95))
