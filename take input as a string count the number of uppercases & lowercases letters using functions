@@ -1,0 +1,10 @@
+str='YourComfortZone'
+lower=0
+upper=0
+for i in str:
+    if(i.islower()):
+        lower+=1
+    else:
+        upper+=1
+print("no.of uppercases is:",upper)
+print("no.of lowercases is:",lower)
